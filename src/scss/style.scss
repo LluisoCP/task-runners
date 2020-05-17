@@ -1,0 +1,20 @@
+$color: red;
+
+body {
+	background-color: $color;
+}
+
+.class {
+	display: flex;
+	scroll-snap-type: x mandatory;
+	.test {
+		font-size: 12px;
+	}
+}
+.test {
+	color: $color;
+}
+.class {
+	font-size: 1.25rem;
+	background: linear-gradient(to top, transparent 0%, $color 100%);
+}

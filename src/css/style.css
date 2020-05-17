@@ -1,0 +1,6 @@
+body {
+  background-color: red; }
+
+.class {
+  display: flex;
+  scroll-snap-type: x mandatory; }

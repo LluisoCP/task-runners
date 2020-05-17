@@ -1,0 +1,4 @@
+module.exports = {
+	"signup": "https://join.senzu.app",
+	"logout": "https://auth.senzu.app/logout"
+}
