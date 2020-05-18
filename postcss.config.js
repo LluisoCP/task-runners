@@ -8,10 +8,6 @@ module.exports = {
         }),
         require('cssnano')({
             preset: 'default',
-        }),
-        require('postcss-hash')({
-        	trim	: 8,
-        	manifest: './dist/manifest.css.json'
         })
     ],
 };
