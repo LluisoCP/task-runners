@@ -1,0 +1,1 @@
+$('body').append(`<p>${logoutUrl}</p>`)
