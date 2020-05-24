@@ -1,7 +1,12 @@
 let fs = require('fs');
-let stream = fs.createReadStream('data.txt');
+let data = fs.createReadStream('data.txt');
+let input = fs.createReadStream('input.txt');
 let output = fs.createWriteStream('output.txt');
 // stream.on("data", function(data) {
 // 	console.log(data.toString());
 // });
-stream.pipe(output);
+// data.pipe(output);
+// output.write(data.read());
+// output.write(input.read());
+input.pipe(output);
+data.pipe(output);

@@ -1,1 +1,1 @@
-$('body').append(`<p>${logoutUrl}</p>`)
+$('body').append(`<p style="background-color: red;">Yes I F***ING did!</p>`)
